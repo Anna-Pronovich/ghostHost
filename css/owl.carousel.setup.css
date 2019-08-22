@@ -1,0 +1,11 @@
+.owl-carousel {
+    position: relative;
+  }
+  
+  .owl-dots {
+    width: 110px;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+  }
+  

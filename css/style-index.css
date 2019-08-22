@@ -1,0 +1,105 @@
+@import "../css/style-index-header.css";
+@import "../css/style-index-main-form-search.css";
+@import "../css/style-main-packages.css";
+@import "../css/style-main-about-us.css";
+@import "../css/style-main-slider-container-functions.css";
+@import "../css/style-index-footer.css";
+
+ 
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoheavy';
+    src: url('../fonts/lato-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/lato-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latomedium';
+    src: url('../fonts/lato-medium-webfont.woff2') format('woff2'),
+         url('../fonts/lato-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latothin';
+    src: url('../fonts/lato-thin-webfont.woff2') format('woff2'),
+         url('../fonts/lato-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon/icomoon.eot?xaioxa');
+    src:  url('../fonts/icomoon/icomoon.eot?xaioxa#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon/icomoon.ttf?xaioxa') format('truetype'),
+      url('../fonts/icomoon/icomoon.woff?xaioxa') format('woff'),
+      url('../fonts/icomoon/icomoon.svg?xaioxa#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' ;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+   
+html,
+body {
+    height: 100%;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'latoregular', Tahoma, sans-serif;
+}
