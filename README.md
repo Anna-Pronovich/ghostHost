@@ -1,0 +1,2 @@
+# ghostHost
+html, css
