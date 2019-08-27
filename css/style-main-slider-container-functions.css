@@ -1,0 +1,82 @@
+.slaider-comments {
+	position: relative;
+	height: 191px;
+	text-align: center;
+}
+
+.slaider-comments img{
+	height: 191px;
+}
+
+.slaider-comments q {
+	display: inline-block;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 955px;
+   	height: 50px;
+	margin-top: -50px;
+	margin-left: -479px;
+	font-size: 20px;
+	font-family: 'latolight', Tahoma, sans-serif;;
+	color: rgba(255, 255, 255, 255);
+}
+
+.slaider-comments cite {
+	display: inline-block;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+   	height: 50px;
+	margin-left: -80px;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'latosemibold', Tahoma, sans-serif;;
+	color: rgba(255, 255, 255, 255);
+}
+
+.functions {
+	height: 243px;
+}
+
+.functions ul { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+	flex-grow: 1;
+	width: 1300px;
+	margin-top: 97px;
+	padding-left: 150px;  
+}
+
+.functions ul li {
+    list-style-type: none;  
+    align-self: center;  
+}
+
+.functions li a {
+   	display: inline-block;
+	width: 230px;
+	height: 150px;
+	padding:0;
+   	text-decoration: none;
+}
+
+.functions a > img {
+	display: block;
+	margin: 0 auto;
+}
+
+p.name-function {
+	margin-bottom: 0;
+	font-size: 18px;
+	font-family: 'latoheavy', Tahoma, sans-serif;;
+	color: rgba(48, 48, 48, 255);
+}
+
+p.description-function {
+	margin: 0;
+	font-size: 16px;
+	font-family: 'latolight', Tahoma, sans-serif;;
+	color: rgba(126, 126, 126, 255);
+}
